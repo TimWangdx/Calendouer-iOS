@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Calendouer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>lottie-ios.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>08A98ECEC467A9C7ECBEF937141D9377</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>325A8060E7104A9154587DAF3D51FF9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2F1F3743499DC42D8C91F52497BB2B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B420FA2739B3AEF8A78F5653BDB0CA11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

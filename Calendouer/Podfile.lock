@@ -1,0 +1,20 @@
+PODS:
+  - lottie-ios (1.0.4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - lottie-ios
+  - SDWebImage (~> 3.8)
+  - SnapKit (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  lottie-ios: 8b2c5ba38105430a72f03ce54be90d8dac950161
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: 62a074566e32783ab3de267db360eb5e63c2d1ca
+
+COCOAPODS: 1.2.0

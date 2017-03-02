@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2923B9A515626D8C813579C7 /* Pods_Calendouer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2545464D916F8368106AA /* Pods_Calendouer.framework */; };
+		D5D7068E1E68612800F61871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068D1E68612800F61871 /* AppDelegate.swift */; };
+		D5D706901E68612800F61871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068F1E68612800F61871 /* ViewController.swift */; };
+		D5D706931E68612800F61871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D706911E68612800F61871 /* Main.storyboard */; };
+		D5D706951E68612800F61871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D706941E68612800F61871 /* Assets.xcassets */; };
+		D5D706981E68612800F61871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D706961E68612800F61871 /* LaunchScreen.storyboard */; };
+		D5D706A31E68612900F61871 /* CalendouerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706A21E68612900F61871 /* CalendouerTests.swift */; };
+		D5D706AE1E68612900F61871 /* CalendouerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706AD1E68612900F61871 /* CalendouerUITests.swift */; };
+		D5D706C01E68681000F61871 /* AppDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706BF1E68681000F61871 /* AppDefault.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D7069F1E68612900F61871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D706821E68612800F61871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D706891E68612800F61871;
+			remoteInfo = Calendouer;
+		};
+		D5D706AA1E68612900F61871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D706821E68612800F61871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D706891E68612800F61871;
+			remoteInfo = Calendouer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3B2545464D916F8368106AA /* Pods_Calendouer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendouer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D7068A1E68612800F61871 /* Calendouer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendouer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D7068D1E68612800F61871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D7068F1E68612800F61871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D706921E68612800F61871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D706941E68612800F61871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D706971E68612800F61871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5D706991E68612900F61871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D7069E1E68612900F61871 /* CalendouerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendouerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D706A21E68612900F61871 /* CalendouerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendouerTests.swift; sourceTree = "<group>"; };
+		D5D706A41E68612900F61871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D706A91E68612900F61871 /* CalendouerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendouerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D706AD1E68612900F61871 /* CalendouerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendouerUITests.swift; sourceTree = "<group>"; };
+		D5D706AF1E68612900F61871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D706BF1E68681000F61871 /* AppDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDefault.swift; path = Default/AppDefault.swift; sourceTree = "<group>"; };
+		D8A08A95730A76A12845FD1F /* Pods-Calendouer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendouer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendouer/Pods-Calendouer.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9CEEE2CC15DEF670F499B5 /* Pods-Calendouer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendouer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calendouer/Pods-Calendouer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D706871E68612800F61871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2923B9A515626D8C813579C7 /* Pods_Calendouer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D7069B1E68612900F61871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D706A61E68612900F61871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148871C3AE3F61382B416EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8A08A95730A76A12845FD1F /* Pods-Calendouer.debug.xcconfig */,
+				DF9CEEE2CC15DEF670F499B5 /* Pods-Calendouer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3E5375B9D7F39E38B4D7ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2545464D916F8368106AA /* Pods_Calendouer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D706811E68612800F61871 = {
+			isa = PBXGroup;
+			children = (
+				D5D7068C1E68612800F61871 /* Calendouer */,
+				D5D706A11E68612900F61871 /* CalendouerTests */,
+				D5D706AC1E68612900F61871 /* CalendouerUITests */,
+				D5D7068B1E68612800F61871 /* Products */,
+				148871C3AE3F61382B416EF7 /* Pods */,
+				B3E5375B9D7F39E38B4D7ADB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D7068B1E68612800F61871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D7068A1E68612800F61871 /* Calendouer.app */,
+				D5D7069E1E68612900F61871 /* CalendouerTests.xctest */,
+				D5D706A91E68612900F61871 /* CalendouerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D7068C1E68612800F61871 /* Calendouer */ = {
+			isa = PBXGroup;
+			children = (
+				D5D706C11E68684F00F61871 /* App */,
+				D5D706BE1E6867B000F61871 /* Config */,
+			);
+			path = Calendouer;
+			sourceTree = "<group>";
+		};
+		D5D706A11E68612900F61871 /* CalendouerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D706A21E68612900F61871 /* CalendouerTests.swift */,
+				D5D706A41E68612900F61871 /* Info.plist */,
+			);
+			path = CalendouerTests;
+			sourceTree = "<group>";
+		};
+		D5D706AC1E68612900F61871 /* CalendouerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D706AD1E68612900F61871 /* CalendouerUITests.swift */,
+				D5D706AF1E68612900F61871 /* Info.plist */,
+			);
+			path = CalendouerUITests;
+			sourceTree = "<group>";
+		};
+		D5D706BB1E68678A00F61871 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D5D7068F1E68612800F61871 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D5D706BC1E68679F00F61871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D5D706BD1E6867A700F61871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D5D706BE1E6867B000F61871 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D5D706911E68612800F61871 /* Main.storyboard */,
+				D5D706941E68612800F61871 /* Assets.xcassets */,
+				D5D706961E68612800F61871 /* LaunchScreen.storyboard */,
+				D5D706991E68612900F61871 /* Info.plist */,
+				D5D7068D1E68612800F61871 /* AppDelegate.swift */,
+				D5D706BF1E68681000F61871 /* AppDefault.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		D5D706C11E68684F00F61871 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D5D706BD1E6867A700F61871 /* Model */,
+				D5D706BC1E68679F00F61871 /* View */,
+				D5D706BB1E68678A00F61871 /* Controller */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D706891E68612800F61871 /* Calendouer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D706B21E68612900F61871 /* Build configuration list for PBXNativeTarget "Calendouer" */;
+			buildPhases = (
+				D5136CBD47B1077F78128D34 /* [CP] Check Pods Manifest.lock */,
+				D5D706861E68612800F61871 /* Sources */,
+				D5D706871E68612800F61871 /* Frameworks */,
+				D5D706881E68612800F61871 /* Resources */,
+				6F109DE6EE13848C1643C48B /* [CP] Embed Pods Frameworks */,
+				94FD7D1DD9D146EE5672DE1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendouer;
+			productName = Calendouer;
+			productReference = D5D7068A1E68612800F61871 /* Calendouer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D7069D1E68612900F61871 /* CalendouerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D706B51E68612900F61871 /* Build configuration list for PBXNativeTarget "CalendouerTests" */;
+			buildPhases = (
+				D5D7069A1E68612900F61871 /* Sources */,
+				D5D7069B1E68612900F61871 /* Frameworks */,
+				D5D7069C1E68612900F61871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D706A01E68612900F61871 /* PBXTargetDependency */,
+			);
+			name = CalendouerTests;
+			productName = CalendouerTests;
+			productReference = D5D7069E1E68612900F61871 /* CalendouerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5D706A81E68612900F61871 /* CalendouerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D706B81E68612900F61871 /* Build configuration list for PBXNativeTarget "CalendouerUITests" */;
+			buildPhases = (
+				D5D706A51E68612900F61871 /* Sources */,
+				D5D706A61E68612900F61871 /* Frameworks */,
+				D5D706A71E68612900F61871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D706AB1E68612900F61871 /* PBXTargetDependency */,
+			);
+			name = CalendouerUITests;
+			productName = CalendouerUITests;
+			productReference = D5D706A91E68612900F61871 /* CalendouerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D706821E68612800F61871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Desgard_Duan;
+				TargetAttributes = {
+					D5D706891E68612800F61871 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C3JGTFM664;
+						ProvisioningStyle = Automatic;
+					};
+					D5D7069D1E68612900F61871 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C3JGTFM664;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5D706891E68612800F61871;
+					};
+					D5D706A81E68612900F61871 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C3JGTFM664;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5D706891E68612800F61871;
+					};
+				};
+			};
+			buildConfigurationList = D5D706851E68612800F61871 /* Build configuration list for PBXProject "Calendouer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D706811E68612800F61871;
+			productRefGroup = D5D7068B1E68612800F61871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D706891E68612800F61871 /* Calendouer */,
+				D5D7069D1E68612900F61871 /* CalendouerTests */,
+				D5D706A81E68612900F61871 /* CalendouerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D706881E68612800F61871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D706981E68612800F61871 /* LaunchScreen.storyboard in Resources */,
+				D5D706951E68612800F61871 /* Assets.xcassets in Resources */,
+				D5D706931E68612800F61871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D7069C1E68612900F61871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D706A71E68612900F61871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F109DE6EE13848C1643C48B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calendouer/Pods-Calendouer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94FD7D1DD9D146EE5672DE1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calendouer/Pods-Calendouer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5136CBD47B1077F78128D34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D706861E68612800F61871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D706901E68612800F61871 /* ViewController.swift in Sources */,
+				D5D706C01E68681000F61871 /* AppDefault.swift in Sources */,
+				D5D7068E1E68612800F61871 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D7069A1E68612900F61871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D706A31E68612900F61871 /* CalendouerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D706A51E68612900F61871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D706AE1E68612900F61871 /* CalendouerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D706A01E68612900F61871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D706891E68612800F61871 /* Calendouer */;
+			targetProxy = D5D7069F1E68612900F61871 /* PBXContainerItemProxy */;
+		};
+		D5D706AB1E68612900F61871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D706891E68612800F61871 /* Calendouer */;
+			targetProxy = D5D706AA1E68612900F61871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D706911E68612800F61871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D706921E68612800F61871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D706961E68612800F61871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D706971E68612800F61871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D706B01E68612900F61871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5D706B11E68612900F61871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D706B31E68612900F61871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A08A95730A76A12845FD1F /* Pods-Calendouer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3JGTFM664;
+				INFOPLIST_FILE = Calendouer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.Calendouer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5D706B41E68612900F61871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9CEEE2CC15DEF670F499B5 /* Pods-Calendouer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3JGTFM664;
+				INFOPLIST_FILE = Calendouer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.Calendouer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5D706B61E68612900F61871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C3JGTFM664;
+				INFOPLIST_FILE = CalendouerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.CalendouerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendouer.app/Calendouer";
+			};
+			name = Debug;
+		};
+		D5D706B71E68612900F61871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C3JGTFM664;
+				INFOPLIST_FILE = CalendouerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.CalendouerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendouer.app/Calendouer";
+			};
+			name = Release;
+		};
+		D5D706B91E68612900F61871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C3JGTFM664;
+				INFOPLIST_FILE = CalendouerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.CalendouerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calendouer;
+			};
+			name = Debug;
+		};
+		D5D706BA1E68612900F61871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C3JGTFM664;
+				INFOPLIST_FILE = CalendouerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = desgard.CalendouerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calendouer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D706851E68612800F61871 /* Build configuration list for PBXProject "Calendouer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D706B01E68612900F61871 /* Debug */,
+				D5D706B11E68612900F61871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D706B21E68612900F61871 /* Build configuration list for PBXNativeTarget "Calendouer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D706B31E68612900F61871 /* Debug */,
+				D5D706B41E68612900F61871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D706B51E68612900F61871 /* Build configuration list for PBXNativeTarget "CalendouerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D706B61E68612900F61871 /* Debug */,
+				D5D706B71E68612900F61871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D706B81E68612900F61871 /* Build configuration list for PBXNativeTarget "CalendouerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D706B91E68612900F61871 /* Debug */,
+				D5D706BA1E68612900F61871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D706821E68612800F61871 /* Project object */;
+}
