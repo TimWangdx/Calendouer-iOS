@@ -26,3 +26,6 @@ extension UIColor {
         )
     }
 }
+
+let DouGreen: UIColor = UIColor(value: 0x4CAF50, alpha: 1)
+let DouDarkGreen: UIColor = UIColor(value: 0x388E3C, alpha: 1)

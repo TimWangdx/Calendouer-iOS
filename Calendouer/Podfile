@@ -5,6 +5,7 @@ target 'Calendouer' do
     pod 'SDWebImage', '~> 3.8'
     pod 'SnapKit', '~> 3.0.2'
     pod 'lottie-ios'
+    pod 'SwipeableTabBarController'
 end
 
 post_install do |installer|

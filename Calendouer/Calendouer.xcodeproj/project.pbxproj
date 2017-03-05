@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		2923B9A515626D8C813579C7 /* Pods_Calendouer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2545464D916F8368106AA /* Pods_Calendouer.framework */; };
 		D5D7068E1E68612800F61871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068D1E68612800F61871 /* AppDelegate.swift */; };
-		D5D706901E68612800F61871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068F1E68612800F61871 /* ViewController.swift */; };
+		D5D706901E68612800F61871 /* CalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068F1E68612800F61871 /* CalViewController.swift */; };
 		D5D706931E68612800F61871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D706911E68612800F61871 /* Main.storyboard */; };
 		D5D706951E68612800F61871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D706941E68612800F61871 /* Assets.xcassets */; };
 		D5D706981E68612800F61871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D706961E68612800F61871 /* LaunchScreen.storyboard */; };
 		D5D706A31E68612900F61871 /* CalendouerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706A21E68612900F61871 /* CalendouerTests.swift */; };
 		D5D706AE1E68612900F61871 /* CalendouerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706AD1E68612900F61871 /* CalendouerUITests.swift */; };
 		D5D706C01E68681000F61871 /* AppDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706BF1E68681000F61871 /* AppDefault.swift */; };
+		D5D706C41E6BAB9000F61871 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D706C31E6BAB9000F61871 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		C3B2545464D916F8368106AA /* Pods_Calendouer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendouer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D7068A1E68612800F61871 /* Calendouer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendouer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D7068D1E68612800F61871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5D7068F1E68612800F61871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D7068F1E68612800F61871 /* CalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalViewController.swift; sourceTree = "<group>"; };
 		D5D706921E68612800F61871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5D706941E68612800F61871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D706971E68612800F61871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		D5D706AD1E68612900F61871 /* CalendouerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendouerUITests.swift; sourceTree = "<group>"; };
 		D5D706AF1E68612900F61871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5D706BF1E68681000F61871 /* AppDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDefault.swift; path = Default/AppDefault.swift; sourceTree = "<group>"; };
+		D5D706C31E6BAB9000F61871 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabViewController.swift; path = App/Controller/TabViewController.swift; sourceTree = "<group>"; };
 		D8A08A95730A76A12845FD1F /* Pods-Calendouer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendouer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendouer/Pods-Calendouer.debug.xcconfig"; sourceTree = "<group>"; };
 		DF9CEEE2CC15DEF670F499B5 /* Pods-Calendouer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendouer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calendouer/Pods-Calendouer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,7 +152,8 @@
 		D5D706BB1E68678A00F61871 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D5D7068F1E68612800F61871 /* ViewController.swift */,
+				D5D7068F1E68612800F61871 /* CalViewController.swift */,
+				D5D706C31E6BAB9000F61871 /* TabViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 		D5D706BC1E68679F00F61871 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D5D706911E68612800F61871 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,7 +176,6 @@
 		D5D706BE1E6867B000F61871 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				D5D706911E68612800F61871 /* Main.storyboard */,
 				D5D706941E68612800F61871 /* Assets.xcassets */,
 				D5D706961E68612800F61871 /* LaunchScreen.storyboard */,
 				D5D706991E68612900F61871 /* Info.plist */,
@@ -185,9 +188,9 @@
 		D5D706C11E68684F00F61871 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D5D706BB1E68678A00F61871 /* Controller */,
 				D5D706BD1E6867A700F61871 /* Model */,
 				D5D706BC1E68679F00F61871 /* View */,
-				D5D706BB1E68678A00F61871 /* Controller */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -380,7 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D706901E68612800F61871 /* ViewController.swift in Sources */,
+				D5D706C41E6BAB9000F61871 /* TabViewController.swift in Sources */,
+				D5D706901E68612800F61871 /* CalViewController.swift in Sources */,
 				D5D706C01E68681000F61871 /* AppDefault.swift in Sources */,
 				D5D7068E1E68612800F61871 /* AppDelegate.swift in Sources */,
 			);

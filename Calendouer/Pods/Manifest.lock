@@ -4,17 +4,20 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - SnapKit (3.0.2)
+  - SwipeableTabBarController (1.0.0)
 
 DEPENDENCIES:
   - lottie-ios
   - SDWebImage (~> 3.8)
   - SnapKit (~> 3.0.2)
+  - SwipeableTabBarController
 
 SPEC CHECKSUMS:
   lottie-ios: 8b2c5ba38105430a72f03ce54be90d8dac950161
   SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SwipeableTabBarController: fb07f89c9c6dec9af60e546a5e75bd86cbb16e78
 
-PODFILE CHECKSUM: 62a074566e32783ab3de267db360eb5e63c2d1ca
+PODFILE CHECKSUM: 12e3e3626c69b865a381b32a770f6c1858800165
 
 COCOAPODS: 1.2.0

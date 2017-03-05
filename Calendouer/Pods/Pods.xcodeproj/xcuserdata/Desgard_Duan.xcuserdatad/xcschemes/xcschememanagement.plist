@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwipeableTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>lottie-ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08A98ECEC467A9C7ECBEF937141D9377</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>325A8060E7104A9154587DAF3D51FF9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A2F1F3743499DC42D8C91F52497BB2B6</key>
+		<key>47965969255CEA266827F36CA7491D71</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B420FA2739B3AEF8A78F5653BDB0CA11</key>
+		<key>6B1A8BAF3A6C602B25D2594FE741C12C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91852C82DA7ED5C531A4DD5F57AF771C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C15150B1F5F46239BA5EE926DC15DE16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
