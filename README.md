@@ -1,7 +1,6 @@
 # Calendouer-iOS
 
 ![](https://img.shields.io/badge/Swift-3.0-green.svg)
-
 ![](https://img.shields.io/badge/license-MIT-green.svg)
 
 ![](https://github.com/Desgard/Calendouer-iOS/blob/master/Calendouer/Calendouer/Assets.xcassets/AppIcon.appiconset/icon-6p.png)
@@ -10,11 +9,11 @@
 
 ## Features
 
-- [] 日历（阴历 | 阳历，节气，节日） 
-- [] 实时天气
-- [] 备忘提醒
-- [] 电影推荐
-- [] 图书推荐
+- [ ] 日历（阴历 | 阳历，节气，节日） 
+- [ ] 实时天气
+- [ ] 备忘提醒
+- [ ] 电影推荐
+- [ ] 图书推荐
 
 ## System Support 
 
