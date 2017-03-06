@@ -29,3 +29,13 @@ extension UIColor {
 
 let DouGreen: UIColor = UIColor(value: 0x4CAF50, alpha: 1)
 let DouDarkGreen: UIColor = UIColor(value: 0x388E3C, alpha: 1)
+let DouCardTextGray: UIColor = RGBA(r: 122, g: 122, b: 122, a: 1)
+
+let DouDefalutFontName: String = ".PingFangSC-Medium"
+let DouIncFontName: String = ".PingFangSC-Regular"
+let DouCalendarFontName: String = "Arial-BoldMT"
+let DouDefalutFont: UIFont = UIFont(name: DouDefalutFontName, size: 15)!
+let DouIncFont: UIFont = UIFont(name: DouIncFontName, size: 14)!
+let DouCalendarFont: UIFont = UIFont(name: DouCalendarFontName, size: 90)!
+
+
