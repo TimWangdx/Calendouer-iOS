@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2923B9A515626D8C813579C7 /* Pods_Calendouer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2545464D916F8368106AA /* Pods_Calendouer.framework */; };
 		D5AF78231E6CF97B006E63DC /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AF781F1E6CF698006E63DC /* Reveal.framework */; };
+		D5AF78271E6D2BC7006E63DC /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF78251E6D2BC7006E63DC /* CardTableViewCell.swift */; };
+		D5AF78281E6D2BC7006E63DC /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5AF78261E6D2BC7006E63DC /* CardTableViewCell.xib */; };
 		D5D7068E1E68612800F61871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068D1E68612800F61871 /* AppDelegate.swift */; };
 		D5D706901E68612800F61871 /* CalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7068F1E68612800F61871 /* CalViewController.swift */; };
 		D5D706931E68612800F61871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D706911E68612800F61871 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		C3B2545464D916F8368106AA /* Pods_Calendouer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendouer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AF781F1E6CF698006E63DC /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		D5AF78251E6D2BC7006E63DC /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTableViewCell.swift; path = App/View/card/CardTableViewCell.swift; sourceTree = "<group>"; };
+		D5AF78261E6D2BC7006E63DC /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardTableViewCell.xib; path = App/View/card/CardTableViewCell.xib; sourceTree = "<group>"; };
 		D5D7068A1E68612800F61871 /* Calendouer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendouer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D7068D1E68612800F61871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D7068F1E68612800F61871 /* CalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5AF78241E6D2B72006E63DC /* card */ = {
+			isa = PBXGroup;
+			children = (
+				D5AF78251E6D2BC7006E63DC /* CardTableViewCell.swift */,
+				D5AF78261E6D2BC7006E63DC /* CardTableViewCell.xib */,
+			);
+			name = card;
+			sourceTree = "<group>";
+		};
 		D5D706811E68612800F61871 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +181,7 @@
 		D5D706BC1E68679F00F61871 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D5AF78241E6D2B72006E63DC /* card */,
 				D5D706911E68612800F61871 /* Main.storyboard */,
 			);
 			name = View;
@@ -195,9 +209,9 @@
 		D5D706C11E68684F00F61871 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				D5D706BB1E68678A00F61871 /* Controller */,
 				D5D706BD1E6867A700F61871 /* Model */,
 				D5D706BC1E68679F00F61871 /* View */,
+				D5D706BB1E68678A00F61871 /* Controller */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -318,6 +332,7 @@
 				D5D706981E68612800F61871 /* LaunchScreen.storyboard in Resources */,
 				D5D706951E68612800F61871 /* Assets.xcassets in Resources */,
 				D5D706931E68612800F61871 /* Main.storyboard in Resources */,
+				D5AF78281E6D2BC7006E63DC /* CardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5D706C61E6CEF0600F61871 /* SettingViewController.swift in Sources */,
+				D5AF78271E6D2BC7006E63DC /* CardTableViewCell.swift in Sources */,
 				D5D706C41E6BAB9000F61871 /* TabViewController.swift in Sources */,
 				D5D706901E68612800F61871 /* CalViewController.swift in Sources */,
 				D5D706C01E68681000F61871 /* AppDefault.swift in Sources */,

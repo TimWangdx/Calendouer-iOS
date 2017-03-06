@@ -99,6 +99,8 @@ class CalViewController: UIViewController {
         return _imageView
     }()
     
+    var tableView: UITableView = UITableView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initialView()
@@ -108,7 +110,14 @@ class CalViewController: UIViewController {
     
     
     private func initialView() {
+        view.backgroundColor = DouBackGray
         
+        tableView = UITableView(frame: view.bounds, style: UITableViewStyle.plain)
+        tableView.backgroundColor = DouBackGray
+        tableView.separatorColor = UIColor.clear
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(UINib(nibName: CardTableViewCellId, bundle: nil), forCellReuseIdentifier: CardTableViewCellId)
     }
     
     private func addViews() {
@@ -123,6 +132,8 @@ class CalViewController: UIViewController {
         bakView.addSubview(degreeLabel)
         bakView.addSubview(updateTimeLabel)
         bakView.addSubview(weatherImageView)
+        
+        view.addSubview(tableView)
     }
     
     private func settingLayout() {
@@ -175,6 +186,36 @@ class CalViewController: UIViewController {
             make.height.equalTo(40)
             make.bottom.equalTo(updateTimeLabel.snp.bottom)
         }
+        tableView.snp.makeConstraints { (make) in
+            make.top.equalTo(bakView.snp.bottom)
+            make.left.equalTo(view.snp.left)
+            make.bottom.equalTo(view.snp.bottom)
+            make.right.equalTo(view.snp.right)
+        }
     }
 }
 
+extension CalViewController: UITableViewDelegate {
+    @available(iOS 2.0, *)
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 210
+    }
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+}
+
+extension CalViewController: UITableViewDataSource {
+    @available(iOS 2.0, *)
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell: UITableViewCell = UITableViewCell()
+        cell = tableView.dequeueReusableCell(withIdentifier: CardTableViewCellId, for: indexPath) as! CardTableViewCell
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
+        return cell
+    }
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+    }
+}
